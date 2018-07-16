@@ -1,0 +1,150 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0;
+}
+.encabezado{
+    background-image: url("../imgs/header.jpg");
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height: 350px;
+}
+
+.informacionencabezado{
+    margin: auto;
+    width: 70%;
+}
+
+.letratitulo{
+    font-size: 50px;
+}
+
+.letradescripcion{
+    font-size: 25px;
+}
+
+.header{
+    position: relative;
+}
+
+.content {
+    width: 930px;
+    margin: auto;
+    height: 55%;
+    flex: 1 0 auto;
+}
+
+.avatar {
+    display: inline-block;
+}
+
+.foto  {
+    border-radius: 50%;
+    border:none;
+}
+
+.menu {
+    font-size: 1.5em;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu li{
+    color:white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.ciudad{
+    text-align: right;
+}
+
+
+
+
+.perfil{
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+}
+
+.tituloexperiencia{
+    border-bottom: 1px solid #4ad391
+}
+
+table{
+    width: 100%;
+    border: 1px solid #c5d8dd;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.contenedor{
+    margin: auto;
+    width: 70%;
+    background-size: cover;
+    height: 211px;
+}
+
+.contacto{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 75px;
+}
+
+.contacto strong{
+    display:block;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+}
+
+.footer {
+    height: 150px;
+    justify-content: space-between;
+    background-color: rgb(8, 40, 68);
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.formulario{
+    display: flex;
+    width: 400px;
+    color: white;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    margin-right: 15px;
+}
+
+.col2{
+    align-items: flex-start;
+}
+
+.comentarios{
+    height: 100px;
+}
